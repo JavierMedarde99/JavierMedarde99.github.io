@@ -26,6 +26,10 @@ h2{
     color: orangered;
 }
 
+h3{
+    color: grey;
+}
+
 header > img{
     width: 100%;
     height: 20rem;
@@ -82,11 +86,10 @@ div#derecha > h3{
     font-size: x-large;
 }
 
-article#estudios  ul{
+ article#estudios  ul{
 display: flex;
 flex-flow: row wrap;
-height: 10rem;
-}
+} 
 
 
 article#estudios  ul> li{
@@ -97,6 +100,10 @@ article#estudios  ul> li{
 
 div#derecha > article#yo > p{
     margin-left: 2.9rem ;
+}
+
+li.lineLi{
+    padding-left: 7rem;
 }
 
 @media (max-width: 1000px){
@@ -138,5 +145,19 @@ div#derecha > article#yo > p{
     main > div#izquierda{
         padding-right: 1.5rem;
     }
-  
+
+    article#estudios  ul> li{
+        width: 5rem;
+        height: 1rem;
+    }
+
+    div#derecha > *{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    li.lineLi{
+        padding-left: 3rem;
+    }
+
 }
