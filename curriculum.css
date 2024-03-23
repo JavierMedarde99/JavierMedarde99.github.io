@@ -37,7 +37,7 @@ main{
 }
 
 main > div#izquierda{
-    width: 35%;
+    width: 40%;
     background-color: #eee;
     
 }
@@ -133,6 +133,10 @@ div#derecha > article#yo > p{
     article#ultimo ul > li{
        margin-left: -2.2rem;
        margin-bottom: 1rem;
+    }
+
+    main > div#izquierda{
+        padding-right: 1.5rem;
     }
   
 }
