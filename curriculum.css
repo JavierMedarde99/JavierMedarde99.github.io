@@ -133,3 +133,111 @@ h4 {
 li{
     margin-top: 2%;
 }
+
+#left-zone {
+    padding: 5%;
+    width: 70%;
+}
+
+#presentation {
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    border-bottom: black solid 3px;
+}
+
+#presentation > h1{
+    font-size: 50px;
+}
+
+#presentation > :nth-child(2){
+    font-size: 40px;
+    color: gray;
+}
+
+#presentation > :nth-child(3){
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+#name{
+    color: #1a1814;
+}
+
+#surname{
+    color: #e8503a;
+}
+
+.title-information{
+    color: #e8503a;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: rgba(26,24,20,0.12);
+  }
+
+.text-separate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#experience-list li::before {
+  content: "-"; 
+  color: #ff5733; 
+  font-size: 2em; 
+  margin-right: 0.5em; 
+}
+
+#skills-experience{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#skills-experience > p {
+    background-color: grey;
+    color: white;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.training-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.training-box > p{
+   margin-top: 2%;
+   margin-bottom: 4%;
+}
+
+#certifications-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#certifications-box > div {
+    width: 48%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-left: 3px solid #b8963a;
+    padding-left: 2%;
+    background-color: #f2efe9;
+
+    padding: 2%;
+}
